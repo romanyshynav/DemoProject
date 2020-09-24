@@ -5,10 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HtmlPageController {
-    @RequestMapping("/")
-    public String xxx() {
-        return "xxx.html";
-    }
 
     @RequestMapping("/categories")
     public String categories() {
